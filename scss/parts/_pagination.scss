@@ -1,0 +1,20 @@
+.pagination {
+    li {
+        margin-right: 5px;
+
+        .active {
+            background-color: $yellow-color;
+            color: white;
+        }
+        
+        a {
+            color: black;
+
+            &:hover {
+                background-color: $yellow-color;
+                transition: all 0.5s;
+                color: $white-color;
+            }
+        }
+    }
+}

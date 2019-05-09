@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <title>Eduglobal - Education & Courses HTML Template</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="scss/style.css">
+  
+</head>
+<body>
+    <!-- LOADER -->
+<div id="preloader">
+        <span class="spinner"></span>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <!-- END LOADER --> 
+    
+    <!-- header start -->
+  <header>
+  <!-- contact info start -->
+        <section id="contact-info">
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col-lg-6 vertical-allign-middle">
+                        <div class="contact-details">
+                            <div class="item">
+                                <a><i class="fas fa-mobile-alt"></i> 123-456-7890</a>
+                            </div>
+                            <div class="item">
+                                <a><i class="far fa-envelope"></i> info@yourmail.com</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <div class="social">
+                                    <ul>
+                                        <li><i class="fab fa-facebook-f"></i></li>
+                                        <li><i class="fab fa-twitter"></i></li>
+                                        <li><i class="fab fa-google-plus-g"></i></li>
+                                        <li><i class="fab fa-youtube"></i></li>
+                                        <li><i class="fab fa-instagram"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="login">
+                                    <p data-toggle="modal" data-target="#exampleModal">Login</p>
+                                    <button type="button" class="btn btn-first">Apply Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact info end -->
+
+        
+<!-- navbar start -->
+        <section id="mynavbar">
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col-lg-12">
+                        <div class="menu">
+                            <nav class="navbar navbar-expand-lg navbar-light px-0 py-0">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="images/logo_dark.png" alt="">
+                                    </a>
+                                </div>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link" href="#" id="navbarDropdown" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                HOME <i class="fas fa-angle-down"></i>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="index.html">Home Version 1</a>
+                                                <a class="dropdown-item" href="#">Home Version 2</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link" href="#" id="navbarDropdown" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                PAGES <i class="fas fa-angle-down"></i>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="about.html">About Us</a>
+                                                <ul style="padding:0">
+                                                    <li class="nav-item dropdown" style="list-style:none; padding:0">
+                                                        <a class="dropdown-item" href="#" id="navbarDropdown"
+                                                            style="position:relative" role="button"
+                                                            data-toggle="dropdown" aria-haspopup="true"
+                                                            aria-expanded="false">Gallery <i class="fas fa-angle-right"
+                                                                style="margin-left:80px;"></i></a>
+                                                        <div class="dropdown-menu" id="second-dropdown">
+                                                            <a class="dropdown-item" href="#">Gallery 3 Column Grid</a>
+                                                            <a class="dropdown-item" href="#">Gallery 3 Column Grid</a>
+                                                            <a class="dropdown-item" href="#">Gallery 3 Column
+                                                                Masonry</a>
+                                                            <a class="dropdown-item" href="#">Gallery 3 Column
+                                                                Masonry</a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <a class="dropdown-item" href="#">Faq</a>
+                                                <a class="dropdown-item" href="#">404 Page</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link" href="#" id="navbarDropdown" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                COURSE <i class="fas fa-angle-down"></i>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="courses.html">Courses</a>
+                                                <a class="dropdown-item" href="#">Course Detail</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link" href="#" id="navbarDropdown" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                EVENT <i class="fas fa-angle-down"></i>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="events.html">Event</a>
+                                                <a class="dropdown-item" href="#">Event Detail</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link" href="#" id="navbarDropdown" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                TEACHER <i class="fas fa-angle-down"></i>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="#">Teacher</a>
+                                                <a class="dropdown-item" href="#">Teacher Detail</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link" href="#" id="navbarDropdown" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                BLOG <i class="fas fa-angle-down"></i>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="#">Blog</a>
+                                                <a class="dropdown-item" href="#">Blog Detail</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="contact.html">CONTACT</a>
+                                        </li>
+                                    </ul>
+                                    <a class="search-link" href="#search-input">
+                                        <i class="fas fa-search"></i>
+                                        <span class="sr-only">(current)</span>
+                                    </a>
+                                    <div class="search">
+                                        <form class="form-inline" id="search-input">
+                                            <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                                aria-label="Search">
+                                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i
+                                                    class="fas fa-search"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- navbar end -->
+
+
+    </header>
+
+    <!-- header end -->
+
+
+    <!-- main start -->
+
+    <main>
+
+        <!--slider -->
+        <section id="slider">
+
+            <div class="items owl-carousel owl-theme">
+                <div class="item">
+                    <img src="images/banner1.jpg" alt="">
+                    <h1>LEARN ONLINE COURSES</h1>
+                    <h4>Contrary to popular belief, Lorem Ipsum is not simply random</h4>
+                    <ul class="d-flex justify-content-center">
+                        <li> <a class="btn btn-first" href="#">Get Started</a></li>
+                        <li> <a class="btn btn-second" href="#">Learn More</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <img src="images/banner2.jpg" alt="">
+                    <h1>EDUCTION FROM A NEW ANGLE</h1>
+                    <h4 class="mt-4">Contrary to popular belief, Lorem Ipsum is not simply random</h4>
+                    <ul class="d-flex justify-content-center">
+                        <li> <a class="btn btn-first" href="#">Get Started</a></li>
+                        <li> <a class="btn btn-second" href="#">Learn More</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <img src="images/banner3.jpg" alt="">
+                    <h1>WELCOME TO EDUGLOBAL</h1>
+                    <h4>Lorem is simply text of the printing and typesetting industry.</h4>
+                    <ul class="d-flex justify-content-center">
+                        <li> <a class="btn btn-first" href="#">Get Started</a></li>
+                        <li> <a class="btn btn-second" href="#">Learn More</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
+        
+        <!-- slider end -->
+
+
+        <!-- why choose eduglobal start -->
+        <section id="choose-eduglobal">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="page-title">
+                            <h2>Why Choose Eduglobal</h2>
+                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                                anything embarrassing hidden in the middle of text</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="item">
+                            <div class="photo bg-danger">
+                                <img src="images/book.png" alt="">
+                            </div>
+                            <h5>Books & Library</h5>
+                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there
+                                isn't anything embarrassing hidden in the middle of text</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item">
+                            <div class="photo bg-orange">
+                                <img src="images/globe.png" alt="">
+                            </div>
+                            <h5>Learn Courses Online</h5>
+                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there
+                                isn't anything embarrassing hidden in the middle of text</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item">
+                            <div class="photo bg-success">
+                                <img src="images/instructors.png" alt="">
+                            </div>
+                            <h5>Expert Instructors</h5>
+                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there
+                                isn't anything embarrassing hidden in the middle of text</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- why choose eduglobal end -->
+        <!-- s -->
+
+        <!-- popular categories start -->
+        <section id="popular">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 text-center">
+                        <div class="page-title">
+                            <h2>Most Popular Categories</h2>
+                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                                anything embarrassing hidden in the middle of text</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="items owl-carousel owl-theme">
+                            <div class="item bg-success">
+                                <a href="#"><i class="fa fa-chart-line"></i>Business</a>
+                            </div>
+
+                            <div class="item bg-warning">
+                                <a href=""><i class="fa fa-book"></i>Academics</a>
+                            </div>
+
+                            <div class="item bg-pink">
+                                <a href=""><i class="fa fa-camera"></i>Photography</a>
+                            </div>
+
+                            <div class="item bg-primary">
+                                <a href=""><i class="fa fa-heartbeat"></i>Health Fitness</a>
+                            </div>
+
+                            <div class="item bg-orange">
+                                <a href=""><i class="fa fa-code"></i>Development</a>
+                            </div>
+
+                            <div class="item bg-danger">
+                                <a href=""><i class="fas fa-globe"></i>Language</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- popular categories end -->
+
+        <!-- about us start -->
+        <section id="about">
+            <div class="container-fluid">
+                <div class="row d-flex justify-content-center align-items-center overflow-hidden">
+                    <div class="col-lg-6 px-0 mx-0">
+                        <div class="content">
+                            <h2>About Us</h2>
+                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                                anything embarrassing hidden in the middle of text.All the Lorem Ipsum generators on the
+                                Internet tend to repeat predefined chunks as necessary</p>
+
+                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                                anything embarrassing hidden in the middle of text.</p>
+
+                            <ul>
+                                <li>
+                                    <h1>260</h1>
+                                    <p>Free Courses</p>
+                                </li>
+                                <li>
+                                    <h1>152</h1>
+                                    <p>Paid Courses</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 px-0 mx-0">
+                        <div class="video-img">
+                            <img src="images/about_img.jpg" alt="">
+                        </div>
+                        <a data-fancybox href="https://www.youtube.com/embed/7e90gBu4pas"><i
+                                class="fas fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about us end -->
+
+        <!-- courses start -->
+        <section id="our-courses">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="page-title">
+                            <h3>Our Courses</h3>
+                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                                anything embarrassing hidden in the middle of text</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="images/course_img1.jpg" alt="course1">
+                            </div>
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">Nullam id varius nunc id varius nunc</h5>
+                                </a>
+                                <p class="card-text">If you are going to use a passage of Lorem Ipsum you need to be
+                                    sure anything embarrassing hidden in the middle of text.</p>
+
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star-half-alt"></i></li>
+                                </ul>
+                                <a href="#"><i class="far fa-user"></i> 31</a>
+                                <a href="#"><i class="far fa-heart"></i>10</a>
+                            </div>
+                            <div class="footer">
+                                <div class="user">
+                                    <img src="images/user1.jpg">
+                                </div>
+                                <div class="user-name">
+                                    <a href="#">Alia Noor</a>
+                                </div>
+                                <div class="price">
+                                    <span class="alert alert-success">Free</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="images/course_img2.jpg" alt="course2">
+                            </div>
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">Nullam id varius nunc id varius nunc</h5>
+                                </a>
+                                <p class="card-text">If you are going to use a passage of Lorem Ipsum you need to be
+                                    sure anything embarrassing hidden in the middle of text.</p>
+
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star-half-alt"></i></li>
+                                </ul>
+                                <a href="#"><i class="far fa-user"></i> 31</a>
+                                <a href="#"><i class="far fa-heart"></i>10</a>
+                            </div>
+                            <div class="footer">
+                                <div class="user">
+                                    <img src="images/user2.jpg">
+                                </div>
+                                <div class="user-name">
+                                    <a href="#">Dany Core</a>
+                                </div>
+                                <div class="price">
+                                    <span class="alert alert-primary">$49</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="images/course_img3.jpg" alt="course3">
+                            </div>
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">Nullam id varius nunc id varius nunc</h5>
+                                </a>
+                                <p class="card-text">If you are going to use a passage of Lorem Ipsum you need to be
+                                    sure anything embarrassing hidden in the middle of text.</p>
+
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star-half-alt"></i></li>
+                                </ul>
+                                <a href="#"><i class="far fa-user"></i> 31</a>
+                                <a href="#"><i class="far fa-heart"></i>10</a>
+                            </div>
+                            <div class="footer">
+                                <div class="user">
+                                    <img src="images/user3.jpg">
+                                </div>
+                                <div class="user-name">
+                                    <a href="#">Smith Parker</a>
+                                </div>
+                                <div class="price">
+                                    <span class="alert alert-success">Free</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="images/course_img4.jpg" alt="course4">
+                            </div>
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">Nullam id varius nunc id varius nunc</h5>
+                                </a>
+                                <p class="card-text">If you are going to use a passage of Lorem Ipsum you need to be
+                                    sure anything embarrassing hidden in the middle of text.</p>
+
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star-half-alt"></i></li>
+                                </ul>
+                                <a href="#"><i class="far fa-user"></i> 31</a>
+                                <a href="#"><i class="far fa-heart"></i>10</a>
+                            </div>
+                            <div class="footer">
+                                <div class="user">
+                                    <img src="images/user4.jpg">
+                                </div>
+                                <div class="user-name">
+                                    <a href="#">Sara Robert</a>
+                                </div>
+                                <div class="price">
+                                    <span class="alert alert-primary">$54</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="images/course_img5.jpg" alt="course5">
+                            </div>
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">Nullam id varius nunc id varius nunc</h5>
+                                </a>
+                                <p class="card-text">If you are going to use a passage of Lorem Ipsum you need to be
+                                    sure anything embarrassing hidden in the middle of text.</p>
+
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star-half-alt"></i></li>
+                                </ul>
+                                <a href="#"><i class="far fa-user"></i> 31</a>
+                                <a href="#"><i class="far fa-heart"></i>10</a>
+                            </div>
+                            <div class="footer">
+                                <div class="user">
+                                    <img src="images/user5.jpg">
+                                </div>
+                                <div class="user-name">
+                                    <a href="#">Wendy Nahse</a>
+                                </div>
+                                <div class="price">
+                                    <span class="alert alert-primary">$36</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="images/course_img6.jpg" alt="course6">
+                            </div>
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">Nullam id varius nunc id varius nunc</h5>
+                                </a>
+                                <p class="card-text">If you are going to use a passage of Lorem Ipsum you need to be
+                                    sure anything embarrassing hidden in the middle of text.</p>
+
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star-half-alt"></i></li>
+                                </ul>
+                                <a href="#"><i class="far fa-user"></i> 31</a>
+                                <a href="#"><i class="far fa-heart"></i>10</a>
+                            </div>
+                            <div class="footer">
+                                <div class="user">
+                                    <img src="images/user6.jpg">
+                                </div>
+                                <div class="user-name">
+                                    <a href="#">John Wood</a>
+                                </div>
+                                <div class="price">
+                                    <span class="alert alert-primary">$22</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-4 text-center">
+                        <button class="btn btn-first">
+                            View All Courses <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- courses end -->
+
+   <!-- Start SECTION COUNTER -->
+        <section class=" mt-5 parallax_bg overlay_counter" data-parallax-bg-image="images/counter_bg.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-6 ">
+                        <div class="box_counter counter_style1 text_white text-center">
+                            <div class="counter_icon">
+                                <img src="images/counter_icon1.png" alt="counter_icon1" />
+                            </div>
+                            <div class="counter_content">
+                                <h3 class="counter_text"><span class="counter">1800</span>+</h3>
+                                <p>Students</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6 ">
+                        <div class="box_counter counter_style1 text_white text-center">
+                            <div class="counter_icon">
+                                <img src="images/counter_icon2.png" alt="counter_icon2" />
+                            </div>
+                            <div class="counter_content">
+                                <h3 class="counter_text"><span class="counter">70</span></h3>
+                                <p>Courses</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6 ">
+                        <div class="box_counter counter_style1 text_white text-center">
+                            <div class="counter_icon">
+                                <img src="images/counter_icon3.png" alt="counter_icon3" />
+                            </div>
+                            <div class="counter_content">
+                                <h3 class="counter_text"><span class="counter">700</span>+</h3>
+                                <p>Certified teachers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6 ">
+                        <div class="box_counter counter_style1 text_white text-center">
+                            <div class="counter_icon">
+                                <img src="images/counter_icon4.png" alt="counter_icon4" />
+                            </div>
+                            <div class="counter_content">
+                                <h3 class="counter_text"><span class="counter">1200</span>+</h3>
+                                <p>Award Winning</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END SECTION COUNTER -->
+     
+
+        <!-- upcoming events start -->
+        <section id="events">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="page-title">
+                            <h2>Upcoming Events</h2>
+                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                                anything embarrassing hidden in the middle of text</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <a href="#">
+                                    <img src="images/event_img1.jpg" alt="event_img1">
+                                </a>
+                                <div class="event-info text-center">
+                                    <h5><span>16</span>May</h5>
+                                    <span class="event-time">10:00 AM <br> 3:00 PM</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">Nullam id varius nunc id varius nunc</h5>
+                                </a>
+
+                                <ul>
+                                    <li><i class="far fa-user"></i> <a href="#"> John Wood</a></li>
+                                    <li><i class="fas fa-map-marker-alt"></i> <span> New York City</span></li>
+                                </ul>
+                                <p class="card-text">If you are going to use a passage of Lorem Ipsum you need to be
+                                    sure anything embarrassing hidden in the middle of text.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <a href="#">
+                                    <img src="images/event_img2.jpg" alt="event_img2">
+                                </a>
+                                <div class="event-info text-center">
+                                    <h5><span>27</span>Apr</h5>
+                                    <span class="event-time">&nbsp9:00 AM <br> 4:00 PM</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">Nullam id varius nunc id varius nunc</h5>
+                                </a>
+
+                                <ul>
+                                    <li><i class="far fa-user"></i> <a href="#"> John Wood</a></li>
+                                    <li><i class="fas fa-map-marker-alt"></i> <span> New York City</span></li>
+                                </ul>
+                                <p class="card-text">If you are going to use a passage of Lorem Ipsum you need to be
+                                    sure anything embarrassing hidden in the middle of text.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <a href="#">
+                                    <img src="images/event_img3.jpg" alt="event_img3">
+                                </a>
+                                <div class="event-info text-center">
+                                    <h5><span>22</span>Jun</h5>
+                                    <span class="event-time">11:00 AM <br> 4:00 PM</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">Nullam id varius nunc id varius nunc</h5>
+                                </a>
+
+                                <ul>
+                                    <li><i class="far fa-user"></i> <a href="#"> John Wood</a></li>
+                                    <li><i class="fas fa-map-marker-alt"></i> <span> New York City</span></li>
+                                </ul>
+                                <p class="card-text">If you are going to use a passage of Lorem Ipsum you need to be
+                                    sure anything embarrassing hidden in the middle of text.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- upcoming events end -->
+
+
+        <!-- online courses register start -->
+        <section id="online-courses">
+            <div class="register">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="registration">
+                            <form>
+                                    <form method="post" name="" class="pt-md-2 form_transparent">
+                                            <div class="row">
+                                                <div class="form-group col-sm-6">
+                                                    <input required="required" placeholder="Enter Name *" class="form-control" name="name" type="text">
+                                                 </div>
+                                                <div class="form-group col-sm-6">
+                                                    <input required="required" placeholder="Enter Email *" class="form-control" name="email" type="email">
+                                                </div>
+                                                <div class="form-group col-sm-6">
+                                                    <input required="required" placeholder="Enter Phone No *" class="form-control" name="phone" type="tel">
+                                                </div>
+                                                <div class="form-group col-sm-6">
+                                                    <div class="custom_select">
+                                                        <select class="form-control">
+                                                            <option>Select Course</option>
+                                                            <option>Course</option>
+                                                            <option>Course</option>
+                                                            <option>Course</option>
+                                                            <option>Course</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-sm-12">
+                                                    <textarea required="required" placeholder="Message *" class="form-control w-75" name="message" rows="4"></textarea>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <button type="submit" title="Submit Your Message!" class="btn btn-first" name="submit" value="Submit">Register Now</button>
+                                                </div>
+                                              
+                                            </div>
+                                        </form>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-5">
+                        <div class="photo text-center"><img src="images/girl_img.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- online courses register end -->
+
+        <!-- our gallery start -->
+
+        <section id="our-gallery">
+            <div class="container">
+
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="page-title">
+                            <h2>Our Gallery</h2>
+                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there<br> isn't
+                                anything
+                                embarrassing hidden in the middle of text</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row d-flex justify-content-center text-center">
+                    <div class="col-lg-6">
+                        <div class="gallery-menu">
+                            <ul>
+                                <li class="active" data-filter="*">All</li>
+                                <li data-filter=".library">Library</li>
+                                <li data-filter=".campus">Campus</li>
+                                <li data-filter=".events">Events</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="gallery-item">
+                        <div class="col-lg-4">
+                            <div class="item library">
+                                <img src="images/gallery_item_small1_360X240.jpg" alt="">
+                                <div class="gallery-info">
+                                    <i class="fas fa-image play-icon"></i>
+                                    <h5>Gallery Title</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="item campus">
+                                <img src="images/gallery_item_small2_360X240.jpg" alt="">
+                                <div class="gallery-info">
+                                    <i class="fas fa-image play-icon"></i>
+                                    <h5>Gallery Title</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="item events">
+                                <img src="images/gallery_item_small3_360X240.jpg" alt="">
+                                <div class="gallery-info">
+                                    <i class="fas fa-image play-icon"></i>
+                                    <h5>Gallery Title</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="item events">
+                                <img src="images/gallery_item_small4_360X240.jpg" alt="">
+                                <div class="gallery-info">
+                                    <i class="fas fa-image play-icon"></i>
+                                    <h5>Gallery Title</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="item events">
+                                <img src="images/gallery_item_small5_360X240.jpg" alt="">
+                                <div class="gallery-info">
+                                    <i class="fas fa-image play-icon"></i>
+                                    <h5>Gallery Title</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="item campus">
+                                <img src="images/gallery_item_small6_360X240.jpg" alt="">
+                                <div class="gallery-info">
+                                    <i class="fas fa-image play-icon"></i>
+                                    <h5>Gallery Title</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="item library">
+                                <img src="images/gallery_item_small7_360X240.jpg" alt="">
+                                <div class="gallery-info">
+                                    <i class="fas fa-image play-icon"></i>
+                                    <h5>Gallery Title</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="item library">
+                                <img src="images/gallery_item_small8_360X240.jpg" alt="">
+                                <div class="gallery-info">
+                                    <i class="fas fa-image play-icon"></i>
+                                    <h5>Gallery Title</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="item events">
+                                <img src="images/gallery_item_small9_360X240.jpg" alt="">
+                                <div class="gallery-info">
+                                    <i class="fas fa-image play-icon"></i>
+                                    <h5>Gallery Title</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="item events">
+                                <img src="images/gallery_item_small10_360X240.jpg" alt="">
+                                <div class="gallery-info">
+                                    <i class="fas fa-image play-icon"></i>
+                                    <h5>Gallery Title</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="item events">
+                                <img src="images/gallery_item_small11_360X240.jpg" alt="">
+                                <div class="gallery-info">
+                                    <i class="fas fa-image play-icon"></i>
+                                    <h5>Gallery Title</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="item events">
+                                <img src="images/gallery_item_small12_360X240.jpg" alt="">
+                                <div class="gallery-info">
+                                    <i class="fas fa-image play-icon"></i>
+                                    <h5>Gallery Title</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="item events">
+                                <img src="images/gallery_item_small13_360X240.jpg" alt="">
+                                <div class="gallery-info">
+                                    <i class="fas fa-image play-icon"></i>
+                                    <h5>Gallery Title</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="item events">
+                                <img src="images/gallery_item_small14_360X240.jpg" alt="">
+                                <div class="gallery-info">
+                                    <i class="fas fa-image play-icon"></i>
+                                    <h5>Gallery Title</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="item events">
+                                <img src="images/gallery_item_small15_360X240.jpg" alt="">
+                                <div class="gallery-info">
+                                    <i class="fas fa-image play-icon"></i>
+                                    <h5>Gallery Title</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- our gallery end -->
+
+
+        <!-- our teachers start -->
+        <section id="our-teachers">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="title text-center">
+                            <h2>Our Teachers</h2>
+                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                                anything embarrassing hidden in the middle of text</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="images/team_img1.jpg" alt="team_img1">
+                                <div class="social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="#">Aden Smith</a>
+                                <p>Head Of Department</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="images/team_img2.jpg" alt="team_img2">
+                                <div class="social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="#">Kally Brooks</a>
+                                <p>Professor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="images/team_img3.jpg" alt="team_img3">
+                                <div class="social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="#">David Clark</a>
+                                <p>Chemistry Teacher</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="images/team_img4.jpg" alt="team_img4">
+                                <div class="social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="#">Rebeca Alig</a>
+                                <p>English Teacher</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- our teachers end -->
+<!-- Students Say Start -->
+        <section id="student-say">
+            <div class="container">
+                <div class="row justify-content-center mt-5">
+                    <div class="col-lg-6 text-center">
+                        <div class="students">
+                            <h2>Student Say!</h2>
+                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                                anything embarrassing hidden in the middle of text</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="items owl-carousel owl-theme">
+                        <div class="item">
+                            <h5>Lissa Castro</h5>
+                            <i>Co-Founder</i>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium,
+                                quaeillo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                            </p>
+                            <div class="img"><img src="images/user1.jpg"></div>
+                        </div>
+                        <div class="item">
+                            <h5>Lissa Castro</h5>
+                            <i>Co-Founder</i>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium,
+                                quaeillo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <div class="img"><img src="images/user2.jpg"></div>
+                        </div>
+                        <div class="item">
+                            <h5>Lissa Castro</h5>
+                            <i>Co-Founder</i>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium,
+                                quaeillo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <div class="img"><img src="images/user3.jpg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- students say end -->
+
+        <!-- our blog start -->
+        <section id="our-blog">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="page-title">
+                            <h2>Our Blog</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <a href="#">
+                                <div class="card-img-top">
+                                    <img src="images/blog_small_img1.jpg" alt="blog_small_img1">
+                                    <div class="icon">
+                                        <i class="fas fa-link play-icon"></i>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">Why are tickets to fly to Lagos expensive?</h5>
+                                </a>
+                                <p class="card-text">If you are going to use a passage of Lorem Ipsum you need to be
+                                    sure there anything embarrassing hidden in the middle of text</p>
+                                <a href="#">Read More</a>
+                            </div>
+                            <div class="card-footer">
+                                <ul>
+                                    <li><a href="#" class="card-link"><i class="far fa-calendar"></i> 15 May, 2019</a>
+                                    </li>
+                                    <li><a href="#" class="card-link"><i class="fas fa-comments"></i> 2 Comment</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <a href="#">
+                                <div class="card-img-top">
+                                    <img src="images/blog_small_img2.jpg" alt="blog_small_img2">
+                                    <div class="icon">
+                                        <i class="fas fa-link play-icon"></i>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">Why are tickets to fly to Lagos expensive?</h5>
+                                </a>
+                                <p class="card-text">If you are going to use a passage of Lorem Ipsum you need to be
+                                    sure there anything embarrassing hidden in the middle of text</p>
+                                <a href="#">Read More</a>
+                            </div>
+                            <div class="card-footer">
+                                <ul>
+                                    <li><a href="#" class="card-link"><i class="far fa-calendar"></i> 23 May, 2019</a>
+                                    </li>
+                                    <li><a href="#" class="card-link"><i class="fas fa-comments"></i> 2 Comment</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <a href="#">
+                                <div class="card-img-top">
+                                    <img src="images/blog_small_img3.jpg" alt="blog_small_img3">
+                                    <div class="icon">
+                                        <i class="fas fa-link play-icon"></i>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">Why are tickets to fly to Lagos expensive?</h5>
+                                </a>
+                                <p class="card-text">If you are going to use a passage of Lorem Ipsum you need to be
+                                    sure there anything embarrassing hidden in the middle of text</p>
+                                <a href="#">Read More</a>
+                            </div>
+                            <div class="card-footer">
+                                <ul>
+                                    <li><a href="#" class="card-link"><i class="far fa-calendar"></i> 16 May, 2019</a>
+                                    </li>
+                                    <li><a href="#" class="card-link"><i class="fas fa-comments"></i> 2 Comment</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-4 text-center">
+                        <button class="btn btn-first">
+                            View All Blog <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+        </section>
+        <!-- our blog end -->
+
+
+        <!-- our clients start -->
+        <section id="clients">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 text-center">
+                        <div class="section_header_text">
+                            <h2>Our Client</h2>
+                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                                anything embarrassing hidden in the middle of text</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="items owl-carousel owl-theme">
+                        <div class="item">
+                            <a href="#">
+                                <img src="images/cl_logo1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="images/cl_logo2.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="images/cl_logo3.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="images/cl_logo4.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="images/cl_logo5.png" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Client End -->
+    </main>
+
+    <!-- main end -->
+
+
+    <!-- footer start -->
+    <footer>
+
+        <!-- coaching training start -->
+        <section id="coaching">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h2>Get The Coaching Training Today!</h2>
+                        <p>If you are going to use a passage of embarrassing hidden in the middle of text</p>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-end align-items-center">
+                        <button type="button" class="btn btn-second animated fadeInDown">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- coaching training end -->
+
+        <!-- footer information start -->
+        <section id="footer-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="info">
+                            <a href="index.html">
+                                <img src="images/logo_white.png">
+                            </a>
+                            <p>Phasellus blandit massa enim. elit id varius nunc. Lorem ipsum dolor sit amet,
+                                consectetur industry.</p>
+                            <ul>
+                                <li><i class="fas fa-map-marker-alt"></i> Califonia Street san Francisco, CA</li>
+                                <li><i class="fas fa-envelope"></i><a href="#"> info@sitename.com</a></li>
+                                <li><i class="fas fa-mobile-alt"></i> + 457 789 789 65</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="useful-links">
+                            <h5>Useful Links</h5>
+                            <ul>
+                                <li><a href="#">Join Us</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Feedback</a></li>
+                                <li><a href="#">Support center</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="posts">
+                            <h5>Recent Posts</h5>
+                            <ul>
+                                <li>
+                                    <div class="item">
+                                        <a href="#">
+                                            <img src="images/latest_post1.jpg">
+                                        </a>
+                                        <div class="postlink">
+                                            <p><a href="#">Lorem ipsum dolor sit amet, consectetur</a></p>
+                                            <p>April 14, 2018</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="item">
+                                        <a href="#">
+                                            <img src="images/latest_post2.jpg">
+                                        </a>
+                                        <div class="postlink">
+                                            <p><a href="#">Lorem ipsum dolor sit amet, consectetur</a></p>
+                                            <p>April 14, 2018</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="item">
+                                        <a href="#">
+                                            <img src="images/latest_post3.jpg">
+                                        </a>
+                                        <div class="postlink">
+                                            <p><a href="#">Lorem ipsum dolor sit amet, consectetur</a></p>
+                                            <p>April 14, 2018</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="subscribe">
+                            <h5>Subscribe Newsletter</h5>
+                            <p>Contrary to popular belief of lorem Ipsm Latin amet ltin from consectetur industry.</p>
+                            <form>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Email" required>
+                                </div>
+                                <button type="submit" class="btn btn-first">Subscribe</button>
+                            </form>
+                            <h5>Follow Us</h5>
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer information end -->
+
+        <!-- privacy policy start -->
+        <section id="privacy-policy">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="left-side">
+                            <p>© 2018 All Rights Reserved by Eduglobal.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="right-side">
+                            <ul>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- privacy policy end -->
+    </footer>
+    <!-- footer end -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

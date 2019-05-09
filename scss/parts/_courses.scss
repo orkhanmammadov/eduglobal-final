@@ -1,0 +1,116 @@
+#our-courses {
+  padding-top: 100px;
+  .col-lg-4 {
+    margin: 0;
+    padding: 0;
+
+    .card {
+      margin: 20px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgb(184, 179, 179);
+      overflow: hidden;
+      padding-bottom: 0;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .card-body {
+        padding-bottom: 0;
+
+        a {
+          text-decoration: none;
+          color: #292b2c;
+          font-size: 14px;
+
+          .card-title {
+            font-size: 17px;
+          }
+
+          &:hover {
+            color: $yellow-color;
+            transition: 0.5s;
+          }
+        }
+
+        p {
+          color: $grey-color;
+          font-size: 17px;
+        }
+
+        ul {
+          list-style: none;
+          padding: 0;
+          display: inline-block;
+          margin-right: 125px;
+
+          li {
+            padding: 0;
+            display: inline-block;
+
+            i {
+              color: $yellow-color;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+
+      .footer {
+        border-top: 1px solid #ddd;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+
+        .user {
+          width: 45px;
+          height: 45px;
+          overflow: hidden;
+          border-radius: 100%;
+          margin: 10px 10px 10px 0;
+        }
+
+        .user-name {
+          width: 150px;
+          margin-right: 60px;
+
+          a {
+            text-decoration: none;
+            color: #292b2c;
+            margin-left: 5px;
+
+            &:hover {
+              color: $yellow-color;
+              transition: 0.3s;
+            }
+          }
+        }
+
+        span {
+          padding: 10px;
+        }
+      }
+
+      &:hover {
+        .card-img-top {
+          overflow: hidden;
+          img {
+            transform: scale(1.1, 1.1);
+            transition: 0.5s;
+          }
+        }
+      }
+    }
+  }
+
+  button {
+    margin-top: 30px;
+    padding: 15px;
+
+    i {
+      margin-left: 15px;
+    }
+  }
+}

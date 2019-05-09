@@ -1,0 +1,98 @@
+#contact-info {
+    width: 100%;
+    height: 60px;
+    font-size: 14px;
+    background-color:#343a40;
+    color: $white-color;
+    display: flex;
+    padding: 5px 0px;
+    
+
+
+    
+    .contact-details {
+   
+     align-self: auto;
+
+        .item {
+            color: #fff;
+	font-size: 14px;
+	margin-left: 5px;
+	vertical-align: middle;
+            display: inline-block;
+            margin-right: 15px;
+            padding: 2px 3px;
+
+            a {
+                i {
+                    margin-right: 8px;
+	vertical-align: middle;
+	font-size: 18px;
+                }
+
+                &:hover {
+                    color: $yellow-color;
+                    cursor: pointer;
+                    transition: 0.4s;
+                }
+            }
+            
+        }
+        
+    }
+
+
+    
+    .social {
+
+        text-align: right;
+
+
+        
+        ul{
+            padding: 0;
+            
+            
+            li{
+                font-size: 16px;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+                padding: 2px 3px;
+                display: inline-block;
+                margin-left: 17px;
+
+                &:hover {
+                    color: $yellow-color;
+                    transition: 0.4s;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+
+    
+    .login {
+        display: inline-block;
+        font-size: 16px;
+
+        p{
+            display: inline-block;
+            margin-bottom: 0;
+
+            &:hover {
+                color: $yellow-color;
+                cursor: pointer;
+                transition: 0.4s;
+            }
+        }
+
+
+
+        button {
+            margin-left: 10px;
+            font-size: 14px;
+        }
+    }
+}

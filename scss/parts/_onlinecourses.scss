@@ -1,0 +1,67 @@
+#online-courses{
+
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 100px;
+    margin-top: 100px;
+    background-image: url("../images/pattern_bg.png");
+    background-color: #07294D;
+  .registration {
+      color: $white-color;
+    border-radius: 10px;
+     height: 550px;
+        padding: 40px;
+        background-color: rgba(255,255,255,0.1);
+
+        form {
+            margin: 15px 0;
+        h1 {
+            
+            font-size: 30px;
+           
+
+            span{
+                color: $yellow-color;
+            }
+        }
+
+        p {
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        input {
+            width: 100%;
+            background-color: transparent;
+            color: $white-color;
+
+            &::placeholder {
+                color: $white-color;
+            }
+        }
+        select {
+            width: 100%;
+            background-color: transparent;
+            color: $white-color;
+        }
+
+        textarea {
+            background-color: transparent;
+            width: 468px;
+            margin-left: 5px;
+            height: 130px;
+            color: $white-color;
+            
+            &::placeholder{
+                color: $white-color;
+            }
+        }
+        button {
+            padding: 10px 30px; 
+        }
+    }
+    }
+}

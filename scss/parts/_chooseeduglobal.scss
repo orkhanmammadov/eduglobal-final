@@ -1,0 +1,61 @@
+#choose-eduglobal {
+    padding: 100px 0px;
+    background-color: #F7F7F7;
+
+
+    .item {
+        text-align: center;
+        padding: 25px 30px;
+        border-radius: 10px;
+        background-color: $white-color;
+        box-shadow: 0 10px 30px #b8b5b5d3;
+
+        .photo{
+
+            height: 100px;
+            width: 100px;
+            border-radius: 100%;
+            line-height: 94px;
+            margin-bottom: 30px;
+            display: inline-block;
+            position: relative;
+
+       
+            &:after {
+                content:'';
+                position: absolute;
+                top: -6px;
+                left: -6px;
+                border: 4px solid $white-color;
+                height:113px;
+                width:113px;
+                border-radius: 100%;
+            }
+         img {
+            width: 55%;
+            height: 55%;
+        }
+  
+    }
+
+    &:hover {
+        transform: translateY(-15px);
+        transition: all 0.8s ease-in-out;
+
+        .photo:after {
+            transform: scale(0.75, 0.75);
+            transition: 1s;
+        }
+       
+    }
+
+    h3 {
+        color: $text-color;
+    }
+    p {
+        color: $grey-color;
+    }
+
+   
+}
+}

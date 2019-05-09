@@ -1,0 +1,97 @@
+#mynavbar {
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: $white-color;
+
+  nav {
+    background-color: $white-color;
+
+    button {
+      color: $text-color;
+    }
+
+    padding-right: 15px;
+    ul {
+      li {
+        padding: 15px 0px;
+        margin-right: 10px;
+
+        a {
+          color: $text-color;
+          word-spacing: 5px;
+
+          &:hover {
+            color: $yellow-color;
+            transition: 0.4s;
+          }
+        }
+
+        #second-dropdown {
+          position: absolute;
+          top: 25%;
+          left: 190px;
+        }
+
+        .dropdown-menu {
+          top: 65px;
+          border-radius: 0;
+
+          .dropdown-item {
+            &:hover {
+              background-color: transparent;
+            }
+          }
+        }
+      }
+    }
+
+    .search-link {
+      i {
+        color: $text-color;
+        font-size: 17px;
+
+        &:hover {
+          color: $yellow-color;
+          transition: 0.4s;
+        }
+      }
+    }
+
+    .search {
+      position: absolute;
+      height: 80px;
+      width: 270px;
+      right: 15px;
+      background-color: $white-color;
+      top: 65px;
+      display: none;
+      z-index: 999;
+
+      &.active {
+        display: block;
+      }
+
+      input {
+        position: relative;
+        height: 40px;
+        width: 230px;
+        border-radius: 0;
+        left: 20px;
+        top: 20px;
+      }
+      button {
+        position: absolute;
+        border: none;
+        top: 20px;
+        left: 200px;
+        font-size: 20px;
+        color: black;
+
+        &:hover {
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}

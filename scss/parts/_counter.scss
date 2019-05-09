@@ -1,0 +1,38 @@
+
+.parallax_bg{
+ display: flex;
+ align-items: center;
+ text-align: center;
+  height: 343px;
+ }
+.overlay_counter{
+  position: relative;
+  &:before{
+    background-color: rgba(7, 41, 77, 0.70);
+    bottom: 0;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+  }
+}
+.box_counter{
+i {
+	font-size: 50px;
+}
+img {
+	max-width: 60px;
+	margin-bottom: 15px;
+}}
+.counter_text {
+  font-size: 30px;
+  color: $white-color;
+}
+.counter_content {
+	text-transform: capitalize;
+}
+.box_counter p {
+  margin: 0;
+  color: $white-color;
+}

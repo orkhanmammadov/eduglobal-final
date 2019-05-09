@@ -1,0 +1,38 @@
+#student-say{
+    
+    .items{
+        .item {
+            border-radius: 10px;
+            padding: 30px 30px 30px 70px;
+            box-shadow: 0px 0px 10px 0px #bbbbbb;
+            margin: 50px;
+            position: relative;
+            h1{
+                font-weight: 700;
+            }
+            i {
+              color: $yellow-color;
+            }
+            p {
+              opacity: 0.7;
+              margin-top: 10px;
+              font-weight: 400;
+              color: $grey-color;
+    line-height: 1.5;
+            }
+            .img {
+                width: 100px;
+                height: 100px;
+              position: absolute;
+              top: 30px;
+              left: -50px;
+              border-radius: 5px;
+              overflow: hidden;
+            }
+            &:focus {
+              outline: none;
+            }
+          }
+}
+    
+}

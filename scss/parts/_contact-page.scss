@@ -1,0 +1,85 @@
+#contact{
+    .contact-head{
+        p{color: $grey-color;
+        }
+    }
+    .contact-main{
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        .forms{
+            padding: 8%;
+        }
+        .map{
+border-radius: 0 10px 10px 0;
+iframe {
+	height: 100%;
+	width: 100%;
+	display: block;
+        }
+    }
+}}
+#contact-information{
+    .contact-information-head{
+        p{
+            color: $grey-color;
+        }
+    }
+    .item{
+       padding: 15px;
+       border: 2px solid #f6f6f6;
+       border-radius: 10px;
+       -moz-transition: transform .25s cubic-bezier(.68,-0.55,.27,1.55);
+       -webkit-transition: transform .25s cubic-bezier(.68,-0.55,.27,1.55);
+       transition: transform .25s cubic-bezier(.68,-0.55,.27,1.55);
+       -moz-transform: translate3d(0, 0, 0);
+       -webkit-transform: translate3d(0, 0, 0);
+       transform: translate3d(0, 0, 0);
+       -webkit-animation-fill-mode: none;
+       animation-fill-mode: none;
+      .icon{
+        position: relative;
+        i{
+            font-size: 40px;
+        }
+        img{
+            max-width: 60px;
+        }
+        
+      }
+      .desc{
+          position: relative;
+          h5,p{
+              color: $white-color;
+          }
+      }
+      &::before{
+          content: '';
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          position: absolute;
+         border-radius: 10px;
+
+      }
+    }
+    .mapinfo{
+        background-image: url('../images/address_img.jpg'); 
+        &::before{
+            background-color: rgba(245, 87, 108, 0.90);
+        }
+    }
+    .phoneinfo{
+        background-image: url('../images/call_img.jpg'); 
+        &::before{
+            background-color: rgba(179, 211, 105, 0.90);
+        }
+    }
+    .emailinfo{
+        background-image: url('/images/email_img.jpg'); 
+        &::before{
+            background-color: rgba(255, 188, 9, 0.90);
+        }
+    }
+}
+

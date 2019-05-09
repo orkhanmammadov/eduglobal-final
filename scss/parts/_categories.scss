@@ -1,0 +1,82 @@
+
+.bg-pink{
+  background-color: #FF69B4 !important;
+}
+
+.bg-orange{
+  background-color: #FF9131 !important;
+}
+.bg-success{
+  background-color: #B3D369 !important;
+}
+.bg-warning{
+  background-color: #FFBC09 !important;
+}
+.bg-primary{
+  background-color: #36D4ED !important;
+}
+.bg-danger{
+  background-color:#F5576C !important;
+}
+#popular {
+  
+
+  padding: 100px 0px;
+  .items {
+    position: relative;
+    text-align: center;
+    .item {
+      padding: 30px 20px;
+      border-radius: 5px;
+      a {
+        color: white;
+        text-decoration: none;
+        i {
+          display: block;
+          margin-bottom: 10px;
+          font-size: 30px;
+        }
+      }
+    }
+    // custom prev-next buttons
+    .owl-prev {
+      position: absolute;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+      background-color: $white-color;
+      width: 40px;
+      height: 40px;
+      opacity: 0;
+      top: 35%;
+      left: -40px;
+      z-index: 2;
+    }
+    .owl-next {
+      position: absolute;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+      background-color: $white-color;
+      width: 40px;
+      height: 40px;
+      opacity: 0;
+      top: 35%;
+      right: -40px;
+      z-index: 2;
+    }
+    .owl-prev span,
+    .owl-next span {
+      font-size: 20px;
+      color: #000;
+    }
+    &:hover {
+      .owl-prev {
+        animation-name: left;
+        animation-duration: 0.8s;
+        animation-fill-mode: forwards;
+      }
+      .owl-next {
+        animation-name: right;
+        animation-duration: 0.8s;
+        animation-fill-mode: forwards;
+      }
+    }
+  }
+}

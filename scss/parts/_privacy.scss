@@ -1,0 +1,30 @@
+#privacy-policy {
+  font-size: 14px;
+  padding: 30px 0 15px;
+  background-color: #202325;
+  color: $white-color;
+
+  .right-side {
+    text-align: right;
+
+    ul {
+      padding: 0;
+      list-style: none;
+
+      li {
+        display: inline-block;
+        margin-left: 10px;
+
+        a {
+          text-decoration: none;
+          color: $white-color;
+
+          &:hover {
+            color: $yellow-color;
+            transition: 0.4s;
+          }
+        }
+      }
+    }
+  }
+}
