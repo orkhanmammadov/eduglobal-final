@@ -295,7 +295,14 @@ $(window).on('load', function() {
     var preLoder = $("#preloader");
     preLoder.delay(700).fadeOut(500).addClass('loaded');
 });
-
+//coundown
+$('.countdown_time').each(function() {
+    var endTime = $(this).data('1599448389680');
+    $(this).countdown(endTime, function(tm) {
+        $(this).html(tm.strftime('<span class="countdown_box"><span class="countdown days">%D </span><span class="cd_text">Days</span></span><span class="countdown_box"><span class="countdown hours">%H</span><span class="cd_text">Hours</span></span><span class="countdown_box"><span class="countdown minutes">%M</span><span class="cd_text">Minutes</span></span><span class="countdown_box"><span class="countdown seconds">%S</span><span class="cd_text">Seconds</span></span>'));
+    });
+});
+//countdown end
 
 });
 
