@@ -1,0 +1,21 @@
+.scrollup {
+	background-color: #2f2f2f;
+	border-radius: 100%;
+	bottom: 20px;
+	color: #ffffff;
+	font-size: 24px;
+	height: 40px;
+	line-height: 40px;
+	position: fixed;
+	right: 20px;
+	text-align: center;
+	width: 40px;
+    z-index: 99;
+    &:hover {
+        background-color: #FFBC09;
+        color: #fff;
+    }
+    &:focus {
+        color:#fff;
+    }
+}

@@ -303,7 +303,23 @@ $('.countdown_time').each(function() {
     });
 });
 //countdown end
+//scroll-up
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 150) {
+        $('.scrollup').fadeIn();
+    } else {
+        $('.scrollup').fadeOut();
+    }
+});
 
+$(".scrollup").on('click', function (e) {
+    e.preventDefault();
+    $('html, body').animate({
+        scrollTop: 0
+    }, 600);
+    return false;
+});
+//scroll up end
 });
 
 
